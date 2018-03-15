@@ -1,0 +1,17 @@
+{
+  "name": "telegram-dwarf-pool-statistics-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test sgit pecified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "vherever",
+  "license": "ISC",
+  "dependencies": {
+    "humanize-duration": "^3.12.1",
+    "node-telegram-bot-api": "^0.30.0",
+    "telegram-node-bot": "^4.0.5"
+  }
+}
