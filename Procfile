@@ -1,1 +1,1 @@
-web: node index.js -p $PORT
+web: node index.js -p 3000
