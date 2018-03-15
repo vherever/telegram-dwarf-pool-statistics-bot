@@ -5,7 +5,11 @@ require('dotenv').config();
 const token = process.env.TOKEN;
 
 const tg = new Telegram.Telegram(token, {
-    workers: 1
+    workers: 1,
+    webAdmin: {
+        port: 3000,
+        host: '0.0.0.0'
+    }
 });
 
 const DwarfController = require('./controllers/dwarf'),
