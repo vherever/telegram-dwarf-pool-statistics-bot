@@ -1,8 +1,6 @@
-1. Create config.json, add telegram token and wallet address, example
+1. Create .env file, add telegram token and wallet address, example
 ```
-    {
-        "token": "your telegram token",
-        "wallet": "your eth wallet"
-    }
+TOKEN=your_telegram_token
+WALLET=your_eth_wallet
 ```
 2. node index.js

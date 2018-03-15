@@ -2,12 +2,9 @@ const Telegram = require('telegram-node-bot');
 
 require('dotenv').config();
 
-const config = {
-    token: process.env.TOKEN,
-    wallet: process.env.WALLET
-};
+const token = process.env.TOKEN;
 
-const tg = new Telegram.Telegram(config.token, {
+const tg = new Telegram.Telegram(token, {
     workers: 1
 });
 
