@@ -6,6 +6,10 @@
   "scripts": {
     "test": "echo \"Error: no test sgit pecified\" && exit 1"
   },
+  "engines": {
+    "node": "5.0.0",
+    "npm": "4.6.1"
+  },
   "keywords": [],
   "author": "vherever",
   "license": "ISC",
