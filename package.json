@@ -10,6 +10,7 @@
   "author": "vherever",
   "license": "ISC",
   "dependencies": {
+    "dotenv": "^5.0.1",
     "humanize-duration": "^3.12.1",
     "node-telegram-bot-api": "^0.30.0",
     "telegram-node-bot": "^4.0.5"

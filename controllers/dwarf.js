@@ -3,7 +3,11 @@
 const Telegram = require('telegram-node-bot');
 const http = require('http');
 
-const config = require('../config.json');
+const config = {
+    token: process.env.TOKEN,
+    wallet: process.env.WALLET
+};
+
 const apiUrl = `http://dwarfpool.com/eth/api?wallet=${config.wallet}`;
 
 const DataHelper = require('../helpers/dataHelper');
