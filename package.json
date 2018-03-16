@@ -3,8 +3,13 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "engines": {
+    "node": "6.5.0",
+    "npm": "3.10.3"
+  },
   "scripts": {
-    "test": "echo \"Error: no test sgit pecified\" && exit 1"
+    "test": "echo \"Error: no test sgit pecified\" && exit 1",
+    "start": "node index.js"
   },
   "keywords": [],
   "author": "vherever",
