@@ -4,15 +4,14 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test sgit pecified\" && exit 1",
-    "start": "node start -p $PORT",
-    "heroku-postbuild": "node build"
+    "test": "echo \"Error: no test sgit pecified\" && exit 1"
   },
   "keywords": [],
   "author": "vherever",
   "license": "ISC",
   "dependencies": {
     "dotenv": "^5.0.1",
+    "express": "^4.16.3",
     "humanize-duration": "^3.12.1",
     "node-telegram-bot-api": "^0.30.0",
     "telegram-node-bot": "^4.0.5"

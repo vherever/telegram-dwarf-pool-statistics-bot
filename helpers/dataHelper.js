@@ -1,3 +1,5 @@
+'use strict';
+
 const humanizeDuration = require('humanize-duration');
 
 class DataHelper {
