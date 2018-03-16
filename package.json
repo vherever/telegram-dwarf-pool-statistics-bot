@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test sgit pecified\" && exit 1",
-    "start": "next start -p $PORT",
-    "heroku-postbuild": "next build"
+    "start": "node start -p $PORT",
+    "heroku-postbuild": "node build"
   },
   "keywords": [],
   "author": "vherever",
