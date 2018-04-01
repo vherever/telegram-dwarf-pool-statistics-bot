@@ -7,10 +7,12 @@ class DataHelper {
         return humanizeDuration(sec * 1000);
     }
 
-    _parseData(data) {
+    _parseData(data, price) {
         let parsed = '*3CAP NODES STATS:*\n';
         parsed += `*Total shares*: _${data.total_hashrate}_\n`;
-        parsed += `*Wallet balance*: _${data.wallet_balance} ETH_\n\n`;
+        parsed += `*Wallet balance*: _${data.wallet_balance} ETH_\n`;
+        parsed += `*ETH course*: _${parseFloat(price).toFixed(2)} USD_\n`;
+        parsed += `*Earning 24h*: _${data.earning_24_hours} ETH (${parseFloat(data.earning_24_hours * price).toFixed(2)} USD)_\n\n`;
         for (let key in data.workers) {
             if (data.workers.hasOwnProperty(key)) {
                 let dataWorkerByKey = data.workers[key];
